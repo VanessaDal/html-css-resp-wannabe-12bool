@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 800px;
+  background-color: pink;
+}
+
+[class*="col-"]{
+  background-color: lightgreen;
+  border: 1px solid black;
+  min-height: 200px;
+}
+
+.grey{
+  background-color: grey;
+}
