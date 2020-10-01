@@ -5,16 +5,37 @@
 }
 
 .container{
-  height: 800px;
-  background-color: pink;
+  min-height: 800px;
 }
 
 [class*="col-"]{
-  background-color: lightgreen;
-  border: 1px solid black;
-  min-height: 200px;
+  min-height: 100px;
+  text-align: center;
 }
 
 .grey{
-  background-color: grey;
+  background-color: #F9F9F9;
+}
+
+img{
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.titolo{
+  margin:auto;
+  text-align: center;
+}
+
+h3{
+  margin-bottom: 20px;
+}
+
+p{
+  margin-bottom: 10px;
+
 }
